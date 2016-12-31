@@ -1,5 +1,6 @@
 html, body {
 height: 100%;
+font-family: Arial, Verdana, sans-serif;
 }
 body {
   display: flex;
@@ -20,6 +21,9 @@ align-content: space-between;
 }
 ul {
   text-align: center;
+}
 
+.cvlist {
+  font-size: 50%;
 
 }
