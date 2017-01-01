@@ -6,24 +6,91 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 90%;
-  background:rgb(100,200,100);
+  background:#fff;
 
 }
-.main-header {
-text-align: center;
-background: white;
-text-transform:uppercase;
+#wrapper {
+max-width: 960px;
+margin:0 auto;
+background color: #fff;
+padding: 32px;
 }
+header {
+  background-color:  #4FD5D6;
+  height: 150px;
+  padding: 4px;
+}
+header h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  line-height: 50px
+
+
+  }
+  .main_menu {
+  padding: 5px 0 5px 0;
+  text-align: center;
+  line-height: 32px;
+  background-color: #1C263C;
+
+}
+ul.main_menu {
+margin-top: 15px;
+
+}
+
+.main_menu li {
+
+  display: inline;
+  padding: 0 10px 0 10px;
+  font-size: 20px;
+
+}
+a {
+  cursor: auto
+  ;
+}
+.main_menu a:visited{
+  color:blue;
+}
+.main_menu a:active {
+  color:black;
+}
+.main_menu a {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px;
+  font-variant: small-caps;
+}
+
+.main_menu a:hover {
+color: 59d5d8;
+text-decoration:underline;
+}
+
 .list {
 text-align: center;
 flex-direction: row;
 align-content: space-between;
-}
-ul {
-  text-align: center;
-}
+background: #AEBD38;
 
+}
+/*ul {
+  text-align: center;
+
+}
+*/
 .cvlist {
-  font-size: 50%;
+  font-size: 70%;
+
+}
+.rightside{
+text-align: right;
+font-size: 70%;
+
+}
+li {
+  background:#68829E;
 
 }
