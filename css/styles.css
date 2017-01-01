@@ -25,8 +25,12 @@ header h1 {
   text-align: center;
   color: #fff;
   line-height: 50px
-
-
+  }
+  header h2 {
+  text-transform: lowercase;
+  text-align: center;
+  color: #fff;
+  line-height: 30px;
   }
   .main_menu {
   padding: 5px 0 5px 0;
@@ -51,24 +55,30 @@ a {
   cursor: auto
   ;
 }
-.main_menu a:visited{
-  color:blue;
+.main_menu a:hover {
+color:  #4FD5D6;
+text-decoration:underline;
 }
-.main_menu a:active {
-  color:black;
 }
+
+
 .main_menu a {
   text-decoration: none;
   color: #fff;
   padding: 8px;
   font-variant: small-caps;
 }
-
-.main_menu a:hover {
-color: 59d5d8;
-text-decoration:underline;
+.main_menu a:visited{
+    color:blue;
 }
 
+.main_menu a:hover {
+color: #4FD5D6;
+text-decoration:underline;
+}
+.main_menu a:active{
+  color:black;
+}
 .list {
 text-align: center;
 flex-direction: row;
