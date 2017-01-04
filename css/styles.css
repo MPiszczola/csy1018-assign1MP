@@ -2,13 +2,11 @@ html, body {
 height: 100%;
 font-family: Arial, Verdana, sans-serif;
 }
-
 body {
   display: flex;
   flex-direction: column;
   font-size: 90%;
   text-align: center;
-
 }
 #wrapper {
 max-width: 960px;
@@ -20,13 +18,11 @@ header {
   background-color:  inherit;
   height: 100px;
   padding: 4px;
-
 }
 footer {
   text-align: center;
   background-color: inherit;
   color: white;
-
 }
 header h1 {
 font-family: 'Lobster', cursive;
@@ -34,19 +30,16 @@ padding: 5px 0 5px 300px;
 font-size: 300%;
 color: #fff;
 line-height: 40px;
-
 }
 .main_menu {
 padding: 5px 0 5px 530px;
 text-align: center;
 line-height: 32px;
-
 }
 p.pmainpage {
 color: white;
 text-align: right;
 }
-
 img.profile {
 width: 640px;
 height: 360px;
@@ -55,11 +48,8 @@ margin:auto 20px auto 20px;
 img.profile2 {
   width: 218px;
   height: 360px;
-
 }
-/*h1 {
-text-align: center;
-}*/
+
 ul.main_menu {
 margin-top: 15px;
 
@@ -99,11 +89,9 @@ text-align: center;
 flex-direction: row;
 align-content: space-between;
 background: #AEBD38;
-
 }
 ul {
   text-align: center;
-
 }
 .cvlist {
   font-size: 70%;
@@ -114,12 +102,13 @@ font-size: 70%;
 }
 li {
   background:#fff;
-
 }
 .Welcome {
 text-align: left;
 color: white;
 padding: 0 0 0 100px;
+border-bottom: 1px solid white;
+border-top: 1px solid white;
 }
 p a{
  color: white;
