@@ -6,7 +6,6 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 90%;
-  background:#1B4F72;
   text-align: center;
 
 }
@@ -17,50 +16,54 @@ background color: #ae0001;
 padding: 32px;
 }
 header {
-  background-color:  #C5CAE9;
-  height: 150px;
+  background-color:  inherit;
+  height: 100px;
   padding: 4px;
 
 }
 footer {
   text-align: center;
-  background-color: #fff
+  background-color: inherit;
+  color: white;
 
 }
 header h1 {
-  text-transform: uppercase;
-  text-align: center;
-  color: #d3a625;
-  line-height: 40px
-  }
-
-  .main_menu {
-  padding: 5px 0 5px 0;
-  text-align: center;
-  line-height: 32px;
-  background-color: #740001;
+font-family: 'Lobster', cursive;
+padding: 5px 0 5px 300px;
+font-size: 300%;
+color: #fff;
+line-height: 40px;
 
 }
+.main_menu {
+padding: 5px 0 5px 530px;
+text-align: center;
+line-height: 32px;
 
+}
 p.pmainpage {
-margin:10px auto 10px auto;
-width: 300px;
-padding:50px;
-border: 20px solid #fff
-
+color: white;
+text-align: right;
+}
+h1.welcome {
+text-align: left;
+color: white;
+padding: 0 0 0 100px;
 }
 
 img.profile {
-  width: 300px;
-  height: 300px;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-  margin:10px auto 10px auto;
+width: 640px;
+height: 360px;
+margin:auto 20px auto 20px;
 }
-h1 {
+img.profile2 {
+  width: 218px;
+  height: 360px;
+
+}
+/*h1 {
 text-align: center;
-}
+}*/
 ul.main_menu {
 margin-top: 15px;
 
@@ -69,7 +72,7 @@ margin-top: 15px;
   display: inline;
   padding: 0 10px 0 10px;
   font-size: 20px;
-  background-color: #ae0001;
+  background-color: inherit;
 }
 a {
   cursor: auto
