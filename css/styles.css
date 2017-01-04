@@ -2,6 +2,7 @@ html, body {
 height: 100%;
 font-family: Arial, Verdana, sans-serif;
 }
+
 body {
   display: flex;
   flex-direction: column;
@@ -45,11 +46,6 @@ p.pmainpage {
 color: white;
 text-align: right;
 }
-h1.welcome {
-text-align: left;
-color: white;
-padding: 0 0 0 100px;
-}
 
 img.profile {
 width: 640px;
@@ -88,9 +84,9 @@ a {
 color:  #d3a625;
 text-decoration:underline;
 }
-.main_menu a:visited{
+/*.main_menu a:visited{
     color:blue;
-}
+}*/
 .main_menu a:hover {
 color: #;
 text-decoration:underline;
@@ -119,4 +115,12 @@ font-size: 70%;
 li {
   background:#fff;
 
+}
+.Welcome {
+text-align: left;
+color: white;
+padding: 0 0 0 100px;
+}
+p a{
+ color: white;
 }
