@@ -6,7 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 90%;
-  background:#eeba30;
+  background:#1B4F72;
   text-align: center;
 
 }
@@ -17,7 +17,7 @@ background color: #ae0001;
 padding: 32px;
 }
 header {
-  background-color:  #ae0001;
+  background-color:  #C5CAE9;
   height: 150px;
   padding: 4px;
 
