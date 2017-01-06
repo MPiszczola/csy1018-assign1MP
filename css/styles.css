@@ -1,5 +1,5 @@
 html, body {
-height: 100%;
+
 font-family: Arial, Verdana, sans-serif;
 }
 body {
@@ -7,38 +7,50 @@ body {
   flex-direction: column;
   font-size: 90%;
   text-align: center;
+  background: linear-gradient(to bottom, #1c1b17 0%,#1d1c17 4%,#1f1e1a 6%,#22211d 7%,#21201b 8%,#25221d 10%,#23221d 11%,#25241f 11%,#25241f 12%,#2a2722 13%,#2a2722 15%,#2e2b26 17%,#2f2c27 19%,#33302b 20%,#34312c 23%,#37342f 24%,#37342d 25%,#3d3834 28%,#413c36 31%,#45403a 32%,#45403a 34%,#48433d 34%,#47423c 35%,#4b4640 36%,#49443e 37%,#4e4741 37%,#4e4943 39%,#524b45 40%,#504b45 40%,#554e48 41%,#534e48 42%,#59524c 43%,#5b544e 45%,#5f5852 46%,#5e5751 46%,#635c56 48%,#655e56 50%,#6d6660 53%,#6e675f 54%,#716861 54%,#726962 55%,#736a65 55%,#776e69 57%,#776e67 58%,#7b746e 59%,#857c75 64%,#877e77 64%,#8a817a 65%,#8d847d 66%,#8c837c 66%,#908780 67%,#8e857e 67%,#928982 68%,#918881 68%,#958c85 69%,#968d86 70%,#9a918a 71%,#a09991 74%,#a29994 74%,#a49b96 75%,#aba29b 78%,#aca59f 78%,#ada49f 79%,#b1a8a3 79%,#b0a7a2 79%,#b2a9a4 80%,#afa8a2 80%,#b0a9a3 80%,#b3aca6 80%,#b6ada6 82%,#b6afa9 82%,#b8b1ab 83%,#bcb5af 84%,#bbb4ae 84%,#bfb8b2 85%,#bfb7b4 86%,#c5beb8 87%,#c6bebb 88%,#cfc7c4 90%,#cec6c3 90%,#d6cecb 92%,#d5d0cc 93%,#dad5d1 94%,#d9d4d0 94%,#e0dbd7 96%,#dfdad6 96%,#e3deda 97%,#e3deda 98%,#e8e4e1 99%,#e8e3e0 100%,#ece7e4 100%,#e9e4e1 100%,#ebe6e3 100%);
 }
+
 #wrapper {
 max-width: 960px;
 margin:0 auto;
 background color: #ae0001;
-padding: 32px;
+padding: 0 0 50px 0;
 }
 header {
   background-color:  inherit;
   height: 100px;
   padding: 4px;
 }
+
+header h1 {
+font-family: 'Lobster', cursive;
+text-align: right;
+padding: 35px 35px 35px 0px;
+font-size: 300%;
+color: #fff;
+line-height: 40px;
+border-top: 1px solid white;
+border-bottom: 1px solid white;
+
+}
+
 footer {
   text-align: center;
   background-color: inherit;
   color: white;
-}
-header h1 {
-font-family: 'Lobster', cursive;
-padding: 5px 0 5px 300px;
-font-size: 300%;
-color: #fff;
-line-height: 40px;
 }
 .main_menu {
 padding: 5px 0 5px 530px;
 text-align: center;
 line-height: 32px;
 }
+.clear {
+  clear: both;
+}
 p.pmainpage {
 color: white;
 text-align: right;
+padding: 0 20px 0 0;
 }
 img.profile {
 width: 640px;
@@ -103,12 +115,13 @@ font-size: 70%;
 li {
   background:#fff;
 }
-.Welcome {
+.welcome {
 text-align: left;
 color: white;
-padding: 0 0 0 100px;
+padding: 35px 0 35px 100px;
 border-bottom: 1px solid white;
 border-top: 1px solid white;
+
 }
 p a{
  color: white;
