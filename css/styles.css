@@ -7,18 +7,13 @@ body {
   font-size: 90%;
   text-align: center;
   background: linear-gradient(to bottom, #1c1b17 0%,#ebe6e3 100%);
-
-
 }
-
 #wrapper {
-
 max-width: 1200px;
 margin:0 auto;
 padding: 0 0 50px 0;
 }
 header {
-
   padding: 4px;
 }
 
@@ -34,7 +29,7 @@ border-bottom: 1px solid white;
 
 }
 
-footer {
+.footeroni {
   text-align: center;
   background-color: inherit;
   color: white;
@@ -44,6 +39,7 @@ margin-top: 15px;
 display: flex;
 justify-content: flex-end;
 line-height: 32px;
+list-style-type: none;
 }
 .clear {
   clear: both;
@@ -83,9 +79,6 @@ a {
 color:  #d3a625;
 text-decoration:underline;
 }
-/*.main_menu a:visited{
-    color:blue;
-}*/
 
 .main_menu a:active{
   color:black;
@@ -96,23 +89,18 @@ flex-direction: row;
 align-content: space-between;
 background: #AEBD38;
 }
-ul {
-  text-align: center;
-  list-style-type: none;
-}
+
 .cvlist {
   font-size: 70%;
+  text-align: center;
+  list-style-type: none;
+  color: white;
 }
 .rightside{
 text-align: right;
 font-size: 70%;
 }
-li {
 
-  color: white;
-  padding: 0 80px 0  0;
-
-}
 .welcome {
 text-align: left;
 color: white;
@@ -130,9 +118,16 @@ p a{
   text-align: center;
 
 }
-form {
+.formeroni {
   color: white;
 }
 .matthew {
   font-style: italic;
+}
+.job {
+  font-size: 120%;
+}
+.place {
+ font-style: italic;
+ text-decoration: underline;
 }
